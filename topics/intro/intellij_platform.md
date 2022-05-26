@@ -98,5 +98,5 @@ All of the C# PSI model, inspections, code rewritings, such as quick fixes and r
 This means that creating a plugin for Rider involves two parts - a plugin that lives in the IntelliJ "front end" to show user interface, and a plugin that lives in the ReSharper "back end" to analyze and work with the C# PSI.
 
 Fortunately, many plugins can simply work with the ReSharper backend.
-The Rider takes care of displaying the results of inspections and code completion, and many plugins can be implemented without requiring an IntelliJ UI component.
+Rider takes care of displaying the results of inspections and code completion, and many plugins can be implemented without requiring an IntelliJ UI component.
 More details can be found in [](rider.md).
